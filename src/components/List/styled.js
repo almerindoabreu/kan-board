@@ -4,6 +4,7 @@ export const ListContainer = styled.div`
   padding: 0 15px;
   height: 100%;
   flex: 0 0 320px;
+  min-height: 80vh;
   opacity: ${props => props.done ? 0.6 : 1};
   & + div {
     border-left: 1px solid rgba(0, 0, 0, 0.05);
@@ -12,6 +13,10 @@ export const ListContainer = styled.div`
     margin-top: 30px;
   }
 `;
+
+export const CardWrapper = styled.div`
+  min-height: 80vh;
+`
 
 export const ListHeaderWrapper = styled.header`
     display: flex;
