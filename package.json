@@ -23,7 +23,7 @@
   ],
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "electron": "^9.1.2",
+    "electron": "^18.3.7",
     "electron-react-devtools": "^0.5.3",
     "wait-on": "^5.1.0"
   },
